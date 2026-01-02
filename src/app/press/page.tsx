@@ -43,7 +43,7 @@ export default function PressPage() {
                 {" — "}
                 <a
                   href={outlet.mainUrl}
-                  className="text-blue-600 dark:text-white underline hover:opacity-80"
+                  className="text-blue-600 dark:text-white hover:underline underline"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -52,7 +52,7 @@ export default function PressPage() {
                 {" / "}
                 <a
                   href={outlet.archiveUrl}
-                  className="text-blue-600 dark:text-white underline hover:opacity-80"
+                  className="text-blue-600 dark:text-white hover:underline underline"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
